@@ -1,0 +1,9 @@
+{
+  "parent": "fluxvein:custom/rod",
+  "textures": {
+    "all": "fluxvein:block/rod_texture",
+    "particle": "fluxvein:block/rod_texture",
+    "1": "fluxvein:block/rod_texture"
+  },
+  "render_type": "solid"
+}

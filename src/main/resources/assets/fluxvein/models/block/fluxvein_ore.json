@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fluxvein:block/2",
+    "up": "fluxvein:block/2",
+    "north": "fluxvein:block/2",
+    "east": "fluxvein:block/2",
+    "south": "fluxvein:block/2",
+    "west": "fluxvein:block/2",
+    "particle": "fluxvein:block/2"
+  },
+  "render_type": "solid"
+}

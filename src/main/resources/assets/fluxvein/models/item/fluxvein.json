@@ -1,0 +1,14 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "fluxvein:item/01"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "fluxvein:fluxvein_fluxvein_a1": 1
+      },
+      "model": "fluxvein:item/fluxvein_0"
+    }
+  ]
+}

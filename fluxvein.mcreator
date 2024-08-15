@@ -1,0 +1,310 @@
+{
+  "mod_elements": [
+    {
+      "name": "FluxveinOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxvein_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fluxvein/blockstates/fluxvein_ore.json",
+          "src/main/resources/assets/fluxvein/models/item/fluxvein_ore.json",
+          "src/main/resources/assets/fluxvein/models/block/fluxvein_ore.json",
+          "src/main/java/net/mcreator/fluxvein/block/FluxveinOreBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "Fluxvein",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxvein",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/item/FluxveinItem.java",
+          "src/main/resources/assets/fluxvein/models/item/fluxvein_0.json",
+          "src/main/resources/assets/fluxvein/models/item/fluxvein.json"
+        ]
+      }
+    },
+    {
+      "name": "FluxveinPropertyValueProvider1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxvein_property_value_provider_1",
+      "metadata": {
+        "return_type": "number",
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/procedures/FluxveinPropertyValueProvider1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FluxveinItemInInventoryTick1",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxvein_item_in_inventory_tick_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/procedures/FluxveinItemInInventoryTick1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FluxveinOreSpawn",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxvein_ore_spawn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fluxvein/worldgen/template_pool/fluxvein_ore_spawn.json",
+          "src/main/resources/data/fluxvein/worldgen/structure_set/fluxvein_ore_spawn.json",
+          "src/main/resources/data/fluxvein/worldgen/structure/fluxvein_ore_spawn.json"
+        ]
+      }
+    },
+    {
+      "name": "FluxveinLootTable",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxvein_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fluxvein/loot_tables/blocks/fluxvein_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "FluxveinRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fluxvein_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/procedures/FluxveinRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndFluxvein",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_fluxvein",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/item/EndFluxveinItem.java",
+          "src/main/resources/assets/fluxvein/models/item/end_fluxvein.json"
+        ]
+      }
+    },
+    {
+      "name": "EndFluxveinActive",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_fluxvein_active",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/item/EndFluxveinActiveItem.java",
+          "src/main/resources/assets/fluxvein/models/item/end_fluxvein_active.json"
+        ]
+      }
+    },
+    {
+      "name": "Rod",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fluxvein/models/item/rod.json",
+          "src/main/resources/assets/fluxvein/blockstates/rod.json",
+          "src/main/java/net/mcreator/fluxvein/block/RodBlock.java",
+          "src/main/resources/data/fluxvein/loot_tables/blocks/rod.json",
+          "src/main/resources/assets/fluxvein/models/block/rod.json"
+        ]
+      }
+    },
+    {
+      "name": "RodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rod_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fluxvein/recipes/rod_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndRod",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/fluxvein/models/block/end_rod.json",
+          "src/main/java/net/mcreator/fluxvein/block/EndRodBlock.java",
+          "src/main/resources/assets/fluxvein/models/item/end_rod.json",
+          "src/main/resources/assets/fluxvein/blockstates/end_rod.json",
+          "src/main/resources/data/fluxvein/loot_tables/blocks/end_rod.json"
+        ]
+      }
+    },
+    {
+      "name": "EndFluxveinRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_fluxvein_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/procedures/EndFluxveinRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EndFluxveinRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_fluxvein_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/fluxvein/recipes/end_fluxvein_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndRodGUI",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_rod_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/world/inventory/EndRodGUIMenu.java",
+          "src/main/java/net/mcreator/fluxvein/client/gui/EndRodGUIScreen.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:EndRod",
+      "~CUSTOM:Rod",
+      "~CUSTOM:FluxveinOre"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.fluxvein.end_rod": "End Rod",
+      "item.fluxvein.end_fluxvein": "End Fluxvein",
+      "block.fluxvein.rod": "Rod",
+      "item.fluxvein.fluxvein": "Fluxvein",
+      "block.fluxvein.fluxvein_ore": "Fluxvein Ore",
+      "item.fluxvein.end_fluxvein_active": "End Fluxvein Active"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "fluxvein",
+    "modName": "Fluxvein",
+    "version": "1.0.0",
+    "author": "valer, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "mcreator_link"
+    ],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.fluxvein"
+  },
+  "mcreatorVersion": 202400232117
+}
