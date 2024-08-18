@@ -33,6 +33,7 @@ public class FluxveinModItems {
 	public static final RegistryObject<Item> END_FLUXVEIN_ACTIVE = REGISTRY.register("end_fluxvein_active", () -> new EndFluxveinActiveItem());
 	public static final RegistryObject<Item> ROD = block(FluxveinModBlocks.ROD);
 	public static final RegistryObject<Item> END_ROD = block(FluxveinModBlocks.END_ROD);
+	public static final RegistryObject<Item> RITUAL_STONE = block(FluxveinModBlocks.RITUAL_STONE);
 
 	// Start of user code block custom items
 	// End of user code block custom items

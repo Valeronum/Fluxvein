@@ -251,15 +251,42 @@
       }
     },
     {
-      "name": "EndRodGUI",
-      "type": "gui",
+      "name": "RitualStone",
+      "type": "block",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "end_rod_gui",
+      "registry_name": "ritual_stone",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/fluxvein/world/inventory/EndRodGUIMenu.java",
-          "src/main/java/net/mcreator/fluxvein/client/gui/EndRodGUIScreen.java"
+          "src/main/resources/assets/fluxvein/models/item/ritual_stone.json",
+          "src/main/java/net/mcreator/fluxvein/block/RitualStoneBlock.java",
+          "src/main/resources/data/fluxvein/loot_tables/blocks/ritual_stone.json",
+          "src/main/resources/assets/fluxvein/models/block/ritual_stone.json",
+          "src/main/resources/assets/fluxvein/blockstates/ritual_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "Code1",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "code_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/Code1.java"
+        ]
+      }
+    },
+    {
+      "name": "Code2",
+      "type": "code",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "code_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/fluxvein/Code2.java"
         ]
       }
     }
@@ -279,6 +306,7 @@
       "block.fluxvein.end_rod": "End Rod",
       "item.fluxvein.end_fluxvein": "End Fluxvein",
       "block.fluxvein.rod": "Rod",
+      "block.fluxvein.ritual_stone": "Ritual Stone",
       "item.fluxvein.fluxvein": "Fluxvein",
       "block.fluxvein.fluxvein_ore": "Fluxvein Ore",
       "item.fluxvein.end_fluxvein_active": "End Fluxvein Active"

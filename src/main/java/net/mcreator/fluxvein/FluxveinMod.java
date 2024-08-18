@@ -18,7 +18,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.fluxvein.init.FluxveinModTabs;
-import net.mcreator.fluxvein.init.FluxveinModMenus;
 import net.mcreator.fluxvein.init.FluxveinModItems;
 import net.mcreator.fluxvein.init.FluxveinModBlocks;
 
@@ -48,7 +47,6 @@ public class FluxveinMod {
 
 		FluxveinModTabs.REGISTRY.register(bus);
 
-		FluxveinModMenus.REGISTRY.register(bus);
 		// Start of user code block mod init
 		// End of user code block mod init
 	}
