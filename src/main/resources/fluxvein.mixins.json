@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.valeronum.fluxvein.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "Fluxvein.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:end_highlands",
+    "minecraft:end_midlands"
+  ],
+  "features": "fluxvein:fluxvein_stars",
+  "step": "underground_ores"
+}

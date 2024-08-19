@@ -1,9 +1,0 @@
-{
-  "parent": "fluxvein:custom/end_rod",
-  "textures": {
-    "all": "fluxvein:block/end_rod_texture",
-    "particle": "fluxvein:block/end_rod_texture",
-    "2": "fluxvein:block/end_rod_texture"
-  },
-  "render_type": "solid"
-}

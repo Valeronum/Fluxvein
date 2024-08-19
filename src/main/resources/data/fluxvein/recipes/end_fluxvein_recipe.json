@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "count": 2,
-  "ingredient": {
-    "item": "fluxvein:end_fluxvein_active"
-  },
-  "result": "fluxvein:end_fluxvein"
-}
