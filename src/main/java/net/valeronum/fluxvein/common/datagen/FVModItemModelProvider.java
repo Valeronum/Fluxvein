@@ -18,6 +18,9 @@ public class FVModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(FVModItems.FLUXVEIN);
+        simpleItem(FVModItems.RAW_FLUXVEIN);
+        simpleItem(FVModItems.STONE_OF_MIRRORING);
+        simpleItem(FVModItems.STONE_OF_PHASING);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

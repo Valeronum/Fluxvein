@@ -29,7 +29,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "fluxvein:fluxvein",
+              "name": "fluxvein:raw_fluxvein",
               "functions": [
                 {
                   "function": "minecraft:apply_bonus",

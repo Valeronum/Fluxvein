@@ -1,5 +1,8 @@
 {
   "block.fluxvein.fluxvein_ore": "Fluxvein Ore",
   "creativetab.fluxvein_tab": "Fluxvein Stones",
-  "item.fluxvein.fluxvein": "Fluxvein"
+  "item.fluxvein.fluxvein": "Fluxvein",
+  "item.fluxvein.raw_fluxvein": "Raw Fluxvein",
+  "item.fluxvein.stone_of_mirroring": "Stone Of Mirroring",
+  "item.fluxvein.stone_of_phasing": "Stone Of Phasing"
 }

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "fluxvein:fluxvein"
+    }
+  },
+  "pattern": [
+    " A ",
+    "A A",
+    "AAA"
+  ],
+  "result": {
+    "item": "fluxvein:stone_of_mirroring"
+  },
+  "show_notification": true
+}

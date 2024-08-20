@@ -13,7 +13,7 @@ import org.slf4j.Logger;
 @Mod(Fluxvein.MODID)
 public class Fluxvein {
     public static final String MODID = "fluxvein";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
     public Fluxvein() {
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         FVModItems.ITEMS.register(bus);

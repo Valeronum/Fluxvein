@@ -1,3 +1,7 @@
-// 1.20.1	2024-08-19T13:26:34.3718866	Recipes
+// 1.20.1	2024-08-20T11:11:04.3159372	Recipes
 82597d8d3c14ef995add4ca3cdfd00b759c85eb6 data/fluxvein/advancements/recipes/misc/fluxvein.json
-67c4c2ffe7c13cef3fcb99204b9c38a14f1d7542 data/fluxvein/recipes/fluxvein.json
+266473d0219a333e6f36f0db4f02ffc2ccbecb1b data/fluxvein/advancements/recipes/misc/stone_of_mirroring.json
+9ee77242316642509b4e9f29c480fe4744ccde74 data/fluxvein/advancements/recipes/misc/stone_of_phasing.json
+c989ba27bff6ad86563a9cbf214de18e69ea3e25 data/fluxvein/recipes/fluxvein.json
+c042843a93ff9ff8fd1c22ae2baaba0607e3db3a data/fluxvein/recipes/stone_of_mirroring.json
+e122c2f52acb999d96ade931cb67307e5b6e337f data/fluxvein/recipes/stone_of_phasing.json

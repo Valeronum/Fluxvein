@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "fluxvein:fluxvein"
+    },
+    "B": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "BAB",
+    "A A",
+    "BAB"
+  ],
+  "result": {
+    "item": "fluxvein:stone_of_phasing"
+  },
+  "show_notification": true
+}

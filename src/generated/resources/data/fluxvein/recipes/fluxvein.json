@@ -3,8 +3,13 @@
   "category": "misc",
   "cookingtime": 400,
   "experience": 5.0,
-  "ingredient": {
-    "item": "fluxvein:fluxvein_ore"
-  },
+  "ingredient": [
+    {
+      "item": "fluxvein:fluxvein_ore"
+    },
+    {
+      "item": "fluxvein:raw_fluxvein"
+    }
+  ],
   "result": "fluxvein:fluxvein"
 }
